@@ -1,0 +1,19 @@
+{
+  "model_name": "ImprovedSentimentLSTM",
+  "vocab_size": 15000,
+  "embedding_dim": 128,
+  "hidden_dim": 256,
+  "num_layers": 2,
+  "dropout": 0.3,
+  "bidirectional": true,
+  "max_sequence_length": 300,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "total_parameters": 4419073,
+  "trainable_parameters": 4419073,
+  "metrics": {
+    "test_loss": 0.28643676714532695,
+    "test_accuracy": 0.8856,
+    "classification_report": "              precision    recall  f1-score   support\n\n    Negative     0.8952    0.8734    0.8842      5000\n    Positive     0.8764    0.8978    0.8870      5000\n\n    accuracy                         0.8856     10000\n   macro avg     0.8858    0.8856    0.8856     10000\nweighted avg     0.8858    0.8856    0.8856     10000\n"
+  }
+}
